@@ -70,6 +70,8 @@ pip install -r requirements.txt
     ```
 ### 4. If you want use other datasets,you can try :
 
+[The DOTA, DIOR and VEDAI](https://github.com/icey-zhang/GHOST/blob/main/Fig/README.md)
+
 ## Time
 2023.2.14 open the code
 
