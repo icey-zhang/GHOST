@@ -132,6 +132,7 @@ pip install -r requirements.txt
 ## Acknowledgements
 
 This code is built on [YOLOv5 (PyTorch)](https://github.com/ultralytics/yolov5). We thank the authors for sharing the codes.
+
 Thanks for the code of dota dataset processing [DOTA_devkit_YOLO](https://github.com/hukaixuan19970627/DOTA_devkit_YOLO).
 
 ## Contact
