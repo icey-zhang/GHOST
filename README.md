@@ -12,6 +12,8 @@
 }
 ```
 
+<p align="center"> <img src="Fig/frame.png" width="90%"> </p>
+
 ## Requirements
 
 ```python
