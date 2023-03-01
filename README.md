@@ -33,7 +33,7 @@ pip install -r requirements.txt
 - 2.1 Train a small full-precision model as the pretrained teacher model ([*SuperYOLO*](https://github.com/icey-zhang/SuperYOLO))
   
   ```python
-  python train.py --data data/NWPU.yaml --cfg models/SRyolo_noFocus.yaml --ch 3 --input_mode RGB --batch-size 8 --epochs 300 --train_img_size 1024 --test_img_size 512 --device 0
+  python train.py --data data/NWPU.yaml --cfg models/SRyolo_noFocus.yaml --ch 3 --input_mode RGB --batch-size 8 --epochs 100 --train_img_size 1024 --test_img_size 512 --device 0
   ```
   
      **result**: You will get a *weight_SuperYOLO*, which serves as a network of teachers to guide the optimization process of quantifying the network.
