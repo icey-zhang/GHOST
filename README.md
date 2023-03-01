@@ -33,7 +33,7 @@ pip install -r requirements.txt
 - 2.1 Train a small full-precision model as the pretrained teacher model ([*SuperYOLO*](https://github.com/icey-zhang/SuperYOLO))
   
   ```python
-  python train.py --data data/NWPU.yaml --cfg models/SRyolo_noFocus.yaml --ch 3 --input_mode RGB --batch-size 8 --epochs 100 --train_img_size 1024 --test_img_size 512 --device 0
+  python train.py --data data/NWPU.yaml --cfg models/SRyolo_noFocus.yaml --ch 3 --input_mode RGB --batch-size 8 --epochs 150 --train_img_size 1024 --test_img_size 512 --device 0
   ```
   
      **result**: You will get a *weight_SuperYOLO*, which serves as a network of teachers to guide the optimization process of quantifying the network.
@@ -44,7 +44,7 @@ pip install -r requirements.txt
     <!-- note: --weights teacher==weight_superYOLO --weight==weight_SuperYOLO -->
   ```
   ```python
-  python quantization_conv_automix_autodis.py --distillation 6 --inter_threshold 0.1 --device 0 --kd_weight 400 --epochs 100 --data data/NWPU.yaml --weights_teacher runs/train/use/exp/weights/best.pt --weights runs/train/use/exp/weights/best.pt --cfg models/SRyolo_noFocus.yaml --ch 3 --input_mode RGB --batch-size 8 --hyp data/hyp.scratch.yaml --train_img_size 1024 --test_img_size 512
+  python quantization_conv_automix_autodis.py --distillation 6 --inter_threshold 0.1 --device 0 --kd_weight 400 --epochs 150 --data data/NWPU.yaml --weights_teacher runs/train/use/exp/weights/best.pt --weights runs/train/use/exp/weights/best.pt --cfg models/SRyolo_noFocus.yaml --ch 3 --input_mode RGB --batch-size 8 --hyp data/hyp.scratch.yaml --train_img_size 1024 --test_img_size 512
   ```
     **result**:You will get a *weight_GHOST*.
 
