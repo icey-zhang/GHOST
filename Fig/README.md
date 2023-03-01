@@ -52,7 +52,7 @@
     python quantization_conv_automix_autodis.py --distillation 6 --inter_threshold 0.1 --device 0 --kd_weight 400 --epochs 300 --data data/SRvedai.yaml --weights_teacher runs/train/exp6/weights/best.pt --weights runs/train/exp6/weights/best.pt --cfg models/SRyolo_noFocus_small.yaml --ch 4 --input_mode RGB+IR --batch-size 2 --train_img_size 1024 --test_img_size 512 
     ```
     ```python
-    python test.py --data data/SRvedai.yaml --weights runs/train/exp7/weights/best.pt --batch-size 1 --device 0 --iou-thres 0.4
+    python test.py --data data/SRvedai.yaml --weights runs/train/exp7/weights/best.pt --batch-size 1 --device 0 --iou-thres 0.6
     ```
     ```python
     python test_flops.py --weights runs/train/use/exp7/weights/best.pt --full_weights runs/train/use/exp6/weights/best.pt --input_mode RGB+IR --inter-threshold 0.1
