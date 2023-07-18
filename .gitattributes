@@ -2,9 +2,6 @@
 *.html linguist-language=python
 *.yaml linguist-language=python
 *.md linguist-language=python
-
-
-*.md linguist-language=python
 *.yml linguist-language=python
 *.html linguist-language=python
 *.js linguist-language=python 
@@ -13,3 +10,10 @@
 *.sql linguist-language=python
 *.uml linguist-language=python 
 *.cmd linguist-language=python
+*.cpp linguist-language=python
+*.i linguist-language=python
+*.h linguist-language=python
+*.o linguist-language=python
+*.pyx linguist-language=python
+*.hpp linguist-language=python
+*.cu linguist-language=python
