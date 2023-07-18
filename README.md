@@ -1,14 +1,22 @@
 # Guided Hybrid Quantization for Object Detection in Multimodal Remote Sensing Imagery via One-to-one Self-teaching
-⭐ The code matches our paper [article](https://arxiv.org/abs/2301.00131)! ! !⭐ 
+⭐ The code matches our paper [article](https://arxiv.org/abs/2301.00131)!!!⭐ 
 
 
  If our code is helpful to you, please cite:
 ```
 @article{zhang2022GHOST,
   title={Guided Hybrid Quantization for Object Detection in Multimodal Remote Sensing Imagery via One-to-one Self-teaching},
-  author={Jiaqing, Zhang and Jie, Lei and Weiying, Xie and Yunsong, Li and  and Xiuping, Jia},
+  author={Jiaqing, Zhang and Jie, Lei and Weiying, Xie and Yunsong, Li and Xiuping, Jia},
   journal={arXiv preprint arXiv:2301.00131},
   year={2022}	
+}
+
+@article{zhang2023guided,
+  title={Guided Hybrid Quantization for Object Detection in Remote Sensing Imagery via One-to-one Self-teaching},
+  author={Zhang, Jiaqing and Lei, Jie and Xie, Weiying and Li, Yunsong and Yang, Geng and Jia, Xiuping},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
@@ -68,9 +76,9 @@ pip install -r requirements.txt
     ```python
     python test.py --data data/NWPU.yaml --weights runs/train/exp1/weights/best.pt --batch-size 4 --device 0 --iou-thres 0.6
     ```
-### 4. If you want use other datasets,you can try :
+### 4. If you want to use other datasets, you can try :
 
-[The DOTA, DIOR and VEDAI](https://github.com/icey-zhang/GHOST/blob/main/Fig/README.md)
+[The DOTA, DIOR, and VEDAI](https://github.com/icey-zhang/GHOST/blob/main/Fig/README.md)
 
 ## Time
 2023.2.14 open the code
@@ -79,7 +87,9 @@ pip install -r requirements.txt
 
 This code is built on [YOLOv5 (PyTorch)](https://github.com/ultralytics/yolov5). We thank the authors for sharing the codes.
 
-Thanks for the code of dota dataset processing [DOTA_devkit_YOLO](https://github.com/hukaixuan19970627/DOTA_devkit_YOLO).
+Thanks for the code of Dota dataset processing [DOTA_devkit_YOLO](https://github.com/hukaixuan19970627/DOTA_devkit_YOLO).
 
 ## Contact
-If you have any question, please contact me with email (jq.zhangcn@foxmail.com).
+If you have any questions, please contact me by email (jq.zhangcn@foxmail.com).Welcome to WeChat group communication (Multimodal Object Detection) at any time:
+
+![多模态目标检测交流群](https://github.com/icey-zhang/SuperYOLO/assets/54712081/657c3ffb-7ebb-427d-9410-d763f6e8c181)
