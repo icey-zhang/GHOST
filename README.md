@@ -93,4 +93,5 @@ Thanks for the code of Dota dataset processing [DOTA_devkit_YOLO](https://github
 ## Contact
 If you have any questions, please contact me by email (jq.zhangcn@foxmail.com).Welcome to WeChat group communication (Multimodal Object Detection) at any time:
 
-![多模态目标检测交流群](https://github.com/icey-zhang/SuperYOLO/assets/54712081/657c3ffb-7ebb-427d-9410-d763f6e8c181)
+![{B344C7EA-907D-A574-87C4-657044F890E0}](https://github.com/icey-zhang/GHOST/assets/54712081/8e967b03-b72d-41c6-8f9d-80dfba562303)
+
