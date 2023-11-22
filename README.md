@@ -1,5 +1,5 @@
 # Guided Hybrid Quantization for Object Detection in Multimodal Remote Sensing Imagery via One-to-one Self-teaching
-⭐ The code matches our paper [article](https://arxiv.org/abs/2301.00131)!!!⭐ 
+⭐ The code matches our paper [article](https://ieeexplore.ieee.org/abstract/document/10175627)!!!⭐ 
 
 
  If our code is helpful to you, please cite:
