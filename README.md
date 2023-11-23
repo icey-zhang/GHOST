@@ -4,12 +4,6 @@
 
  If our code is helpful to you, please cite:
 ```
-@article{zhang2022GHOST,
-  title={Guided Hybrid Quantization for Object Detection in Multimodal Remote Sensing Imagery via One-to-one Self-teaching},
-  author={Jiaqing, Zhang and Jie, Lei and Weiying, Xie and Yunsong, Li and Xiuping, Jia},
-  journal={arXiv preprint arXiv:2301.00131},
-  year={2022}	
-}
 
 @article{zhang2023guided,
   title={Guided Hybrid Quantization for Object Detection in Remote Sensing Imagery via One-to-one Self-teaching},
