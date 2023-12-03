@@ -17,7 +17,7 @@ test: /home/data4/zjq/DIOR/val.txt  # 128 images
 # val: /home/data4/zjq/VEDAI/fold01test_write.txt
 
 # number of classes
-nc: 21
+nc: 20
 
 # class names
 # names: ['car', 'pickup', 'camping','truck', 'other', 'tractor', 'boat', 'van']
@@ -30,7 +30,6 @@ names: ["airplane",
             "dam",
             "Expressway-Service-area",
             "Expressway-toll-station",
-            "golfcourse",
             "golffield",
             "groundtrackfield",
             "harbor",
