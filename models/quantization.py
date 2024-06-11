@@ -392,7 +392,7 @@ def quantize_model_relu_mixv2(model, args, flag, ac_flag):
 
 def quantize_model_relu_automix(model, args, flag, ac_flag):
     """
-    Recursively quantize a pretrained single-precision model to int8 quantized model
+    Recursively quantize a pretrained single-precision model to quantized model
     model: pretrained single-precision model
     """
     if type(model) == nn.Conv2d:
@@ -414,7 +414,6 @@ def quantize_model_relu_automix(model, args, flag, ac_flag):
     #     quant_mod.set_param(model)
     #     return quant_mod, flag, ac_flag
 
-    # quantize all the activation to 8-bit
     elif type(model) == nn.ReLU or type(model) == nn.ReLU6 or type(model) == nn.SiLU: ##zjq
         ac_flag = ac_flag + 1
         if ac_flag == 1:
