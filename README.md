@@ -26,8 +26,7 @@ pip install -r requirements.txt
 
 ### 1. Prepare training data
 - 1.1 The publicly available dataset VEDAI designed for multimodal remote sensing image object detection is adopted in our experiments. In addition to validation on the multimodal object detection dataset, three single modal datasets (DOTA, NWPU  and DIOR ) are utilized in experiments to verify the generation of our proposed algorithm.
-- 1.2
-  Download VEDAI data for our experiment from [baiduyun](https://pan.baidu.com/s/1L0SWi5AQA6ZK9jDIWRY7Fg) (code: hvi4)
+- 1.2 Download VEDAI data for our experiment from [baiduyun](https://pan.baidu.com/s/1L0SWi5AQA6ZK9jDIWRY7Fg) (code: hvi4) or [google drive](https://drive.google.com/file/d/1Fz0VVlBS924pM3RQvcTsD_qaGjxzIv3y/view?usp=sharing). And the path of dataset is like that
 - 1.3
   The process of the dataset can be seen in [here](https://github.com/icey-zhang/GHOST/tree/main/data) transform_xxx.py
 
